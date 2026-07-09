@@ -1,7 +1,7 @@
 /*
-1337 A
-A. Ichihime and Triangle
-https://codeforces.com/problemset/problem/1337/A
+1353 A
+Most Unstable Array
+https://codeforces.com/problemset/problem/1353/A
 */
 
 #include <bits/stdc++.h>
@@ -15,17 +15,23 @@ void printVector(vector<int>v){
         cout<<v[i]<<' ';
     }
 }
-
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t;
-    ll a,b,c,d;
+    ll t,n,k;
     cin>>t;
     while(t--){
-        cin>>a>>b>>c>>d;
-        cout<<b<<" "<<c<<" "<<c<<"\n";
+        cin>>n>>k;
+
+        if(n==1)
+            cout<<0;
+        else if(n==2)
+            cout<<k;
+        else 
+            cout<<2*k;
+        
+        cout<<"\n";
     }
 
     return 0;

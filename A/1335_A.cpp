@@ -1,5 +1,5 @@
 /*
-1335A
+1335 A
 Candies and Two Sister
 https://codeforces.com/problemset/problem/1335/A
 */
@@ -9,18 +9,20 @@ using namespace std;
 
 typedef long long ll;
 
-int main(){
+int main()
+{
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     int t;
     double x;
     ll ans;
-    cin>>t;
-    while(t--){
-        cin>>x;
-        ll ans=ceil((x/2)-1);
-        cout<<ans<<endl;
+    cin >> t;
+    while (t--)
+    {
+        cin >> x;
+        ll ans = ceil((x / 2) - 1);
+        cout << ans << endl;
     }
 
     return 0;
