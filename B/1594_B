@@ -1,0 +1,43 @@
+/*
+B. Special Numbers
+https://codeforces.com/problemset/problem/1594/B
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+const ll MOD = 1e9 + 7;
+
+void solve()
+{
+    int t;
+    scanf("%d", &t);
+    while (t--)
+    {
+        long long n, k;
+        scanf("%lld %lld", &n, &k);
+        long long ans = 0;
+        long long powN = 1 % MOD; // n^0
+        while (k > 0)
+        {
+            if (k & 1)
+            {
+                ans = (ans + powN) % MOD;
+            }
+            powN = (powN * (n % MOD)) % MOD;
+            k >>= 1;
+        }
+        printf("%lld\n", ans);
+    }
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    solve();
+
+    return 0;
+}
