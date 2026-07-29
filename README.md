@@ -6,6 +6,39 @@ A collection of my solutions to [Codeforces](https://codeforces.com/) problems, 
 
 This repository contains my personal solutions as I practice competitive programming on Codeforces. It's meant to track progress, revisit past problems, and serve as a reference for common patterns and algorithms.
 
+## 📂 Repository Structure
+
+Solutions are organized into folders by **problem letter/index** (A, B, C, D, …), since that roughly correlates with difficulty across contests. Each file inside is named after the contest ID it belongs to.
+
+
+## 🏷️ Naming Convention
+
+Each file follows the pattern:
+
+```
+<contest_id>_<problem_letter>.<ext>
+```
+
+Example: `1857_A.cpp` → Contest **1857**, Problem **A**.
+
+## 🛠️ Language Used
+
+| Language | Extension |
+|----------|-----------|
+| C++      | `.cpp`    |
+
+## 📊 Progress Tracker
+
+_Auto-updated by [`scripts/update_readme.cpp`](scripts/update_readme.cpp) on every push — no need to edit this by hand._
+
+<!-- PROGRESS-TRACKER:START -->
+| Problem Letter | Solved |
+|-----------------|--------|
+| A | 1 |
+| C | 6 |
+| **Total** | **7** |
+<!-- PROGRESS-TRACKER:END -->
+
 
 ## 🔗 Useful Links
 
