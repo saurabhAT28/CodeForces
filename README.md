@@ -35,10 +35,10 @@ _Auto-updated by [`scripts/update_readme.cpp`](scripts/update_readme.cpp) on eve
 | Problem Letter | Solved |
 |-----------------|--------|
 | A | 126 |
-| B | 32 |
+| B | 33 |
 | C | 6 |
 | D | 1 |
-| **Total** | **165** |
+| **Total** | **166** |
 <!-- PROGRESS-TRACKER:END -->
 
 
