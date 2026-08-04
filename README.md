@@ -36,9 +36,9 @@ _Auto-updated by [`scripts/update_readme.cpp`](scripts/update_readme.cpp) on eve
 |-----------------|--------|
 | A | 126 |
 | B | 33 |
-| C | 6 |
+| C | 7 |
 | D | 1 |
-| **Total** | **166** |
+| **Total** | **167** |
 <!-- PROGRESS-TRACKER:END -->
 
 
