@@ -34,11 +34,11 @@ _Auto-updated by [`scripts/update_readme.cpp`](scripts/update_readme.cpp) on eve
 <!-- PROGRESS-TRACKER:START -->
 | Problem Letter | Solved |
 |-----------------|--------|
-| A | 147 |
+| A | 148 |
 | B | 41 |
 | C | 9 |
 | D | 1 |
-| **Total** | **198** |
+| **Total** | **199** |
 <!-- PROGRESS-TRACKER:END -->
 
 
