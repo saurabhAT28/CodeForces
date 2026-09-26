@@ -1,6 +1,6 @@
 /*
 C. GCD Treasury
-
+https://codeforces.com/contest/2267/problem/C
 */
 
 #include <bits/stdc++.h>

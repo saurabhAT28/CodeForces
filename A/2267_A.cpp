@@ -1,6 +1,6 @@
 /*
 A. Turn Into Palindrome
-
+https://codeforces.com/contest/2267/problem/A
 */
 
 #include <bits/stdc++.h>

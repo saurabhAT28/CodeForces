@@ -1,6 +1,6 @@
 /*
 B. Fashionable Array
-
+https://codeforces.com/contest/2267/problem/B
 */
 
 #include <bits/stdc++.h>

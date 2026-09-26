@@ -1,6 +1,6 @@
 /*
 E. Clean Substrings
-
+https://codeforces.com/contest/2267/problem/E
 */
 
 #include <bits/stdc++.h>
