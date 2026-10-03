@@ -24,7 +24,7 @@ void solve()
         {
             ans += s[i];
         }
-        
+
         if (s.size() % 2 == 0)
         {
             ans += s.back();
