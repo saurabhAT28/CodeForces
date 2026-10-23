@@ -35,7 +35,7 @@ void solve()
             {
                 curr++;
             }
-            else
+            else    
             {
                 curr = 1;
             }
