@@ -18,16 +18,31 @@ void solve()
         int n;
         cin >> n;
 
-        set<int> s;
+        map<int, int> freq;
 
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             int x;
             cin >> x;
-            s.insert(x);
+            freq[x]++;
         }
 
-        cout << (s.size() <= 2 ? "Yes" : "No") << '\n';
+        if (freq.size() == 1) {
+            cout << "Yes\n";
+        }
+        else if (freq.size() == 2) {
+            auto it = freq.begin();
+            int first = it->second;
+            it++;
+            int second = it->second;
+
+            if (abs(first - second) <= 1)
+                cout << "Yes\n";
+            else
+                cout << "No\n";
+        }
+        else {
+            cout << "No\n";
+        }
     }
 }
 
