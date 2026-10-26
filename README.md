@@ -36,10 +36,10 @@ _Auto-updated by [`scripts/update_readme.cpp`](scripts/update_readme.cpp) on eve
 |-----------------|--------|
 | A | 176 |
 | B | 52 |
-| C | 12 |
+| C | 13 |
 | D | 6 |
 | E | 1 |
-| **Total** | **247** |
+| **Total** | **248** |
 <!-- PROGRESS-TRACKER:END -->
 
 
