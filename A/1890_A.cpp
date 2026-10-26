@@ -20,16 +20,19 @@ void solve()
 
         map<int, int> freq;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             int x;
             cin >> x;
             freq[x]++;
         }
 
-        if (freq.size() == 1) {
+        if (freq.size() == 1)
+        {
             cout << "Yes\n";
         }
-        else if (freq.size() == 2) {
+        else if (freq.size() == 2)
+        {
             auto it = freq.begin();
             int first = it->second;
             it++;
@@ -40,7 +43,8 @@ void solve()
             else
                 cout << "No\n";
         }
-        else {
+        else
+        {
             cout << "No\n";
         }
     }
