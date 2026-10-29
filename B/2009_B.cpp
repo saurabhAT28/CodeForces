@@ -1,6 +1,6 @@
 /*
-
-
+B. osu!mania
+https://codeforces.com/problemset/problem/2009/B
 */
 
 #include <bits/stdc++.h>
